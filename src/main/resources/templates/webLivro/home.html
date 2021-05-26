@@ -36,7 +36,7 @@
 					},
 					mounted () {
 						axios
-					      .get('http://localhost:8081/livros')
+					      .get('https://eds2-ac2.herokuapp.com/livros')
 					      .then(response => (this.livros = response.data))
 					}
 				});
